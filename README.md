@@ -1,5 +1,8 @@
 # jenkins_installation <br>
-The repo contains the jenkins installation and removal scripts on a docker container.
+The repo contains the jenkins installation and removal scripts on a docker container. <br>
+
+**make sure you add executable permission to the scripts**<br>
+sudo chmod +x *.sh
 
 **jenkins_up.sh** <br>
 Pull the jenkins/jenkins:lts image from the docker hub and create a container of that.
